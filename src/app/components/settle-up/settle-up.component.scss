@@ -1,0 +1,37 @@
+section {
+    padding: 0 20px;
+    overflow-y: auto;
+
+    div {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    div {
+        border-radius: 20px;
+        padding: 50px;
+        margin: 5px 0;
+        color: Black;
+        font-weight: bold;
+        background: Crimson;
+        span {
+            font-style: italic;
+            color: White;
+            font-size: 35px;
+            display: block;
+        }
+
+        div {
+            padding: 0 10px;
+        }
+    }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 0 10px
+    }
+  }
